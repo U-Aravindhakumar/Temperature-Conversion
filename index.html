@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Temperature Conversion</h1>
+        <input id="textinput" type="number" placeholder="Enter Your Temp"><br><br>
+        
+        <input type="radio" id="celtofar" name="radioinput">
+        <label for="celtofar">celsius ⏩ fahrenheit</label><br>
+        
+        <input type="radio" id="fartocel" name="radioinput">
+        <label for="fartocel">fahrenheit ⏩ celsius</label><br><br>
+
+        
+         <button type="button" id="submit" onclick="convert()">Submit</button>
+
+
+        <p id="result">Hear is your result</p>
+    </form>
+
+    <script src="script.js"> </script>
+</body>
+</html>

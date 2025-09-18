@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+form{
+    background: #b1b5c9;
+    text-align: center;
+    border: 5px solid black;
+    max-width: 350px;
+    margin: auto;
+}
+h1{
+    color: rgb(255, 68, 68);
+    text-shadow: -1px -1px 0 black,
+                -1px 1px 0 black,
+                1px -1px 0 black,
+                1px 1px 0 black;
+}
+#textinput{
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#submit{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100px;
+}
+#submit:hover{
+    background-color: rgb(180, 117, 117);
+    cursor: pointer;
+}
+#result{
+    font-size: large;
+    font-weight: bold;
+}
